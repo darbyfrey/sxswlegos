@@ -195,7 +195,7 @@ figure {
 }
 
 /* line 11, ../scss/01-buttons.css.scss */
-.button {
+.btn {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #e6e6e6));
   background-image: -webkit-linear-gradient(#ffffff, #e6e6e6);
   background-image: -moz-linear-gradient(#ffffff, #e6e6e6);
@@ -215,71 +215,71 @@ figure {
   margin-bottom: 0;
   font-size: 14px;
   line-height: 20px;
-  color: #333333;
+  color: #333;
   text-align: center;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   vertical-align: middle;
   cursor: pointer;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   border-color: #e6e6e6 #e6e6e6 #bfbfbf;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   border-bottom-color: #b3b3b3;
 }
 
 /* line 30, ../scss/01-buttons.css.scss */
-.button-primary {
+.btn-primary {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0088cc), color-stop(100%, #0044cc));
   background-image: -webkit-linear-gradient(#0088cc, #0044cc);
   background-image: -moz-linear-gradient(#0088cc, #0044cc);
   background-image: -o-linear-gradient(#0088cc, #0044cc);
   background-image: linear-gradient(#0088cc, #0044cc);
   background-color: #006dcc;
-  color: #ffffff;
+  color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  border-color: #0044cc #0044cc #002a80;
+  border-color: #04c #04c #002a80;
 }
 
 /* line 36, ../scss/01-buttons.css.scss */
-.button-success {
+.btn-success {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #62c462), color-stop(100%, #51a351));
   background-image: -webkit-linear-gradient(#62c462, #51a351);
   background-image: -moz-linear-gradient(#62c462, #51a351);
   background-image: -o-linear-gradient(#62c462, #51a351);
   background-image: linear-gradient(#62c462, #51a351);
   background-color: #5bb75b;
-  color: #ffffff;
+  color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   border-color: #51a351 #51a351 #387038;
 }
 
 /* line 42, ../scss/01-buttons.css.scss */
-.button-warning {
+.btn-warning {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbb450), color-stop(100%, #f89406));
   background-image: -webkit-linear-gradient(#fbb450, #f89406);
   background-image: -moz-linear-gradient(#fbb450, #f89406);
   background-image: -o-linear-gradient(#fbb450, #f89406);
   background-image: linear-gradient(#fbb450, #f89406);
   background-color: #faa732;
-  color: #ffffff;
+  color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   border-color: #f89406 #f89406 #ad6704;
 }
 
 /* line 48, ../scss/01-buttons.css.scss */
-.button-danger {
+.btn-danger {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ee5f5b), color-stop(100%, #bd362f));
   background-image: -webkit-linear-gradient(#ee5f5b, #bd362f);
   background-image: -moz-linear-gradient(#ee5f5b, #bd362f);
   background-image: -o-linear-gradient(#ee5f5b, #bd362f);
   background-image: linear-gradient(#ee5f5b, #bd362f);
   background-color: #da4f49;
-  color: #ffffff;
+  color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   border-color: #bd362f #bd362f #802420;
 }
 
 /* line 54, ../scss/01-buttons.css.scss */
-.button-large {
+.btn-large {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
@@ -290,7 +290,7 @@ figure {
 }
 
 /* line 59, ../scss/01-buttons.css.scss */
-.button-small {
+.btn-small {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -301,7 +301,7 @@ figure {
 }
 
 /* line 64, ../scss/01-buttons.css.scss */
-.button-mini {
+.btn-mini {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
