@@ -1,0 +1,72 @@
+@import "compass/css3";
+@import "_normalize.css.scss";
+@import "_layout.css.scss";
+
+.nav-tabs,
+.nav-pills{
+  &:before {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  &:after {
+    clear: both;
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+}
+
+.nav {
+  list-style: none;
+  li a {
+    display: block;
+    text-decoration: none;
+    color: #08c;
+    &:hover, &:focus {
+      background-color: #eee;
+    }
+  }
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #ddd;
+  li {
+    float: left;
+    margin-bottom: -1px;
+    a {
+      @include border-radius(4px 4px 0 0);
+      padding: 8px 12px 8px 12px;
+      line-height: 20px;
+      border: 1px solid transparent;
+      margin-right: 2px;
+      &:hover, &:focus {
+        border-color: #eee #eee #ddd;
+        color: #058;
+      }
+    }
+    &.active a {
+      color: #555;
+      cursor: pointer;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-bottom-color: transparent;
+    }
+  }
+}
+
+.nav-pills {
+  li {
+    float:left;
+    a {
+      @include border-radius(5px);
+      padding: 8px 12px 8px 12px;
+      line-height: 20px;
+      margin-right: 2px;
+    }
+    &.active a {
+      background-color: #08c;
+      color: #fff
+    }
+  }
+}
