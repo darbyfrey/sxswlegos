@@ -2,7 +2,6 @@
 @import "_normalize.css.scss";
 @import "_layout.css.scss";
 
-
 @mixin background-gradient($start, $end, $background_color) {
   @include background-image(linear-gradient(color-stops($start, $end)));
   background-color: $background_color;
@@ -12,57 +11,57 @@
   @include background-gradient(#fff, #e6e6e6, #f5f5f5);
   @include border-radius(4px);
   @include box-shadow(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.05));
+  border: 1px solid #ccc;
+  border-bottom-color: #b3b3b3;
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  color: #333;
+  cursor: pointer;
   display: inline-block;
-  padding: 4px 12px;
-  margin-bottom: 0;
   font-size: 14px;
   line-height: 20px;
-  color: #333;
+  margin-bottom: 0;
+  padding: 4px 12px;
   text-align: center;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   vertical-align: middle;
-  cursor: pointer;
-  border: 1px solid #ccc;
-  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  border-bottom-color: #b3b3b3;
 }
 .btn-primary {
   @include background-gradient(#08c, #04c, #006dcc);
+  border-color: #04c #04c #002a80;
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  border-color: #04c #04c #002a80;
 }
 .btn-success {
   @include background-gradient(#62c462, #51a351, #5bb75b);
+  border-color: #51a351 #51a351 #387038;
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  border-color: #51a351 #51a351 #387038;
 }
 .btn-warning {
   @include background-gradient(#fbb450, #f89406, #faa732);
+  border-color: #f89406 #f89406 #ad6704;
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  border-color: #f89406 #f89406 #ad6704;
 }
 .btn-danger {
   @include background-gradient(#ee5f5b, #bd362f, #da4f49);
+  border-color: #bd362f #bd362f #802420;
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  border-color: #bd362f #bd362f #802420;
 }
 .btn-large {
   @include border-radius(6px);
-  padding: 11px 19px;
   font-size: 17.5px;
+  padding: 11px 19px;
 }
 .btn-small {
   @include border-radius(3px);
-  padding: 2px 10px;
   font-size: 11.9px;
+  padding: 2px 10px;
 }
 .btn-mini {
   @include border-radius(3px);
-  padding: 0 6px;
   font-size: 10.5px;
+  padding: 0 6px;
 }

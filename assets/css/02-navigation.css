@@ -49,7 +49,7 @@ a:hover {
 ================================================== */
 /* line 48, ../scss/_normalize.css.scss */
 h1, h2, h3, h4, h5, h6, p {
-  margin: 0 0 20px 0;
+  margin: 20px 0 20px 0;
 }
 
 /* line 51, ../scss/_normalize.css.scss */
@@ -197,17 +197,17 @@ figure {
 /* line 7, ../scss/02-navigation.css.scss */
 .nav-tabs:before,
 .nav-pills:before {
+  content: "";
   display: table;
   line-height: 0;
-  content: "";
 }
 /* line 12, ../scss/02-navigation.css.scss */
 .nav-tabs:after,
 .nav-pills:after {
   clear: both;
+  content: "";
   display: table;
   line-height: 0;
-  content: "";
 }
 
 /* line 20, ../scss/02-navigation.css.scss */
@@ -216,9 +216,9 @@ figure {
 }
 /* line 22, ../scss/02-navigation.css.scss */
 .nav li a {
+  color: #08c;
   display: block;
   text-decoration: none;
-  color: #08c;
 }
 /* line 26, ../scss/02-navigation.css.scss */
 .nav li a:hover, .nav li a:focus {
@@ -241,23 +241,23 @@ figure {
   -ms-border-radius: 4px 4px 0 0;
   -o-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0;
-  padding: 8px 12px 8px 12px;
-  line-height: 20px;
   border: 1px solid transparent;
+  line-height: 20px;
   margin-right: 2px;
+  padding: 8px 12px 8px 12px;
 }
 /* line 43, ../scss/02-navigation.css.scss */
 .nav-tabs li a:hover, .nav-tabs li a:focus {
-  border-color: #eee #eee #ddd;
   color: #058;
+  border-color: #eee #eee #ddd;
 }
 /* line 48, ../scss/02-navigation.css.scss */
 .nav-tabs li.active a {
-  color: #555;
-  cursor: pointer;
   background-color: #fff;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
+  color: #555;
+  cursor: pointer;
 }
 
 /* line 59, ../scss/02-navigation.css.scss */
@@ -271,12 +271,49 @@ figure {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  padding: 8px 12px 8px 12px;
   line-height: 20px;
   margin-right: 2px;
+  padding: 8px 12px 8px 12px;
 }
 /* line 67, ../scss/02-navigation.css.scss */
 .nav-pills li.active a {
   background-color: #08c;
   color: white;
+}
+
+/* line 75, ../scss/02-navigation.css.scss */
+.nav-stacked li {
+  float: none;
+}
+
+/* line 80, ../scss/02-navigation.css.scss */
+.nav-tabs.nav-stacked {
+  border: none;
+}
+/* line 83, ../scss/02-navigation.css.scss */
+.nav-tabs.nav-stacked li a {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border: 1px solid #ddd;
+}
+/* line 87, ../scss/02-navigation.css.scss */
+.nav-tabs.nav-stacked li:first-child > a {
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+/* line 90, ../scss/02-navigation.css.scss */
+.nav-tabs.nav-stacked li:last-child > a {
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }

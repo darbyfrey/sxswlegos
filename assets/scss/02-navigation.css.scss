@@ -5,24 +5,24 @@
 .nav-tabs,
 .nav-pills{
   &:before {
+    content: "";
     display: table;
     line-height: 0;
-    content: "";
   }
   &:after {
     clear: both;
+    content: "";
     display: table;
     line-height: 0;
-    content: "";
   }
 }
 
 .nav {
   list-style: none;
   li a {
+    color: #08c;
     display: block;
     text-decoration: none;
-    color: #08c;
     &:hover, &:focus {
       background-color: #eee;
     }
@@ -36,21 +36,21 @@
     margin-bottom: -1px;
     a {
       @include border-radius(4px 4px 0 0);
-      padding: 8px 12px 8px 12px;
-      line-height: 20px;
       border: 1px solid transparent;
+      line-height: 20px;
       margin-right: 2px;
+      padding: 8px 12px 8px 12px;
       &:hover, &:focus {
-        border-color: #eee #eee #ddd;
         color: #058;
+        border-color: #eee #eee #ddd;
       }
     }
     &.active a {
-      color: #555;
-      cursor: pointer;
       background-color: #fff;
       border: 1px solid #ddd;
       border-bottom-color: transparent;
+      color: #555;
+      cursor: pointer;
     }
   }
 }
@@ -60,13 +60,35 @@
     float:left;
     a {
       @include border-radius(5px);
-      padding: 8px 12px 8px 12px;
       line-height: 20px;
       margin-right: 2px;
+      padding: 8px 12px 8px 12px;
     }
     &.active a {
       background-color: #08c;
       color: #fff
+    }
+  }
+}
+
+.nav-stacked {
+  li {
+    float: none;
+  }
+}
+
+.nav-tabs.nav-stacked {
+  border: none;
+  li {
+    a {
+      @include border-radius(0);
+      border: 1px solid #ddd;
+    }
+    &:first-child > a {
+      @include border-top-radius(4px);
+    }
+    &:last-child > a {
+      @include border-bottom-radius(4px);
     }
   }
 }
