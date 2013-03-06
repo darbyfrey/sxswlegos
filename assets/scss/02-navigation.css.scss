@@ -2,6 +2,7 @@
 @import "_normalize.css.scss";
 @import "_layout.css.scss";
 
+
 .nav-tabs,
 .nav-pills{
   &:before {
@@ -19,6 +20,8 @@
 
 .nav {
   list-style: none;
+  margin: 0;
+  padding: 0;
   li a {
     color: #08c;
     display: block;

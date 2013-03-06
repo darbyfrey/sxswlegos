@@ -217,14 +217,14 @@ figure {
   float: right;
 }
 
-/* line 7, ../scss/02-navigation.css.scss */
+/* line 8, ../scss/02-navigation.css.scss */
 .nav-tabs:before,
 .nav-pills:before {
   content: "";
   display: table;
   line-height: 0;
 }
-/* line 12, ../scss/02-navigation.css.scss */
+/* line 13, ../scss/02-navigation.css.scss */
 .nav-tabs:after,
 .nav-pills:after {
   clear: both;
@@ -233,31 +233,33 @@ figure {
   line-height: 0;
 }
 
-/* line 20, ../scss/02-navigation.css.scss */
+/* line 21, ../scss/02-navigation.css.scss */
 .nav {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
-/* line 22, ../scss/02-navigation.css.scss */
+/* line 25, ../scss/02-navigation.css.scss */
 .nav li a {
   color: #08c;
   display: block;
   text-decoration: none;
 }
-/* line 26, ../scss/02-navigation.css.scss */
+/* line 29, ../scss/02-navigation.css.scss */
 .nav li a:hover, .nav li a:focus {
   background-color: #eee;
 }
 
-/* line 32, ../scss/02-navigation.css.scss */
+/* line 35, ../scss/02-navigation.css.scss */
 .nav-tabs {
   border-bottom: 1px solid #ddd;
 }
-/* line 34, ../scss/02-navigation.css.scss */
+/* line 37, ../scss/02-navigation.css.scss */
 .nav-tabs li {
   float: left;
   margin-bottom: -1px;
 }
-/* line 37, ../scss/02-navigation.css.scss */
+/* line 40, ../scss/02-navigation.css.scss */
 .nav-tabs li a {
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
@@ -269,12 +271,12 @@ figure {
   margin-right: 2px;
   padding: 8px 12px 8px 12px;
 }
-/* line 43, ../scss/02-navigation.css.scss */
+/* line 46, ../scss/02-navigation.css.scss */
 .nav-tabs li a:hover, .nav-tabs li a:focus {
   color: #058;
   border-color: #eee #eee #ddd;
 }
-/* line 48, ../scss/02-navigation.css.scss */
+/* line 51, ../scss/02-navigation.css.scss */
 .nav-tabs li.active a {
   background-color: #fff;
   border: 1px solid #ddd;
@@ -283,11 +285,11 @@ figure {
   cursor: pointer;
 }
 
-/* line 59, ../scss/02-navigation.css.scss */
+/* line 62, ../scss/02-navigation.css.scss */
 .nav-pills li {
   float: left;
 }
-/* line 61, ../scss/02-navigation.css.scss */
+/* line 64, ../scss/02-navigation.css.scss */
 .nav-pills li a {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -298,22 +300,22 @@ figure {
   margin-right: 2px;
   padding: 8px 12px 8px 12px;
 }
-/* line 67, ../scss/02-navigation.css.scss */
+/* line 70, ../scss/02-navigation.css.scss */
 .nav-pills li.active a {
   background-color: #08c;
   color: white;
 }
 
-/* line 75, ../scss/02-navigation.css.scss */
+/* line 78, ../scss/02-navigation.css.scss */
 .nav-stacked li {
   float: none;
 }
 
-/* line 80, ../scss/02-navigation.css.scss */
+/* line 83, ../scss/02-navigation.css.scss */
 .nav-tabs.nav-stacked {
   border: none;
 }
-/* line 83, ../scss/02-navigation.css.scss */
+/* line 86, ../scss/02-navigation.css.scss */
 .nav-tabs.nav-stacked li a {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -322,7 +324,7 @@ figure {
   border-radius: 0;
   border: 1px solid #ddd;
 }
-/* line 87, ../scss/02-navigation.css.scss */
+/* line 90, ../scss/02-navigation.css.scss */
 .nav-tabs.nav-stacked li:first-child > a {
   -moz-border-radius-topleft: 4px;
   -webkit-border-top-left-radius: 4px;
@@ -331,7 +333,7 @@ figure {
   -webkit-border-top-right-radius: 4px;
   border-top-right-radius: 4px;
 }
-/* line 90, ../scss/02-navigation.css.scss */
+/* line 93, ../scss/02-navigation.css.scss */
 .nav-tabs.nav-stacked li:last-child > a {
   -moz-border-radius-bottomleft: 4px;
   -webkit-border-bottom-left-radius: 4px;
@@ -341,7 +343,7 @@ figure {
   border-bottom-right-radius: 4px;
 }
 
-/* line 98, ../scss/02-navigation.css.scss */
+/* line 101, ../scss/02-navigation.css.scss */
 .nav-pills.nav-stacked li a {
   margin-bottom: 3px;
 }
