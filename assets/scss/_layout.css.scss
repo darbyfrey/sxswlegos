@@ -8,6 +8,14 @@
           box-sizing: border-box;
 }
 
+/* Box offset */
+
+.box-offset {
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  @include border-radius(5px);
+}
+
 /* Container */
 
 .container {

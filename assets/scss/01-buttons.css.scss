@@ -3,8 +3,8 @@
 @import "_layout.css.scss";
 
 @mixin background-gradient($start, $end, $background_color) {
-  @include background-image(linear-gradient(color-stops($start, $end)));
   background-color: $background_color;
+  @include background-image(linear-gradient(color-stops($start, $end)));
 }
 
 .btn {

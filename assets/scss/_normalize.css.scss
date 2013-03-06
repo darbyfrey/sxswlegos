@@ -24,10 +24,9 @@ summary {
 html {
   color: #555;
   font: 16px/20px "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
 }
 body {
+  background: #eee;
   margin: 0;
 }
 
@@ -46,24 +45,30 @@ a:hover {
 ================================================== */
 
 h1, h2, h3, h4, h5, h6, p {
-  margin: 20px 0 20px 0;
+  margin: 0 0 20px 0;
 }
-h1, .h-headline {
+h1,
+.h-headline {
   font-size: 36px;
 }
-h2, .h-subheadline {
+h2,
+.h-subheadline {
   font-size: 24px;
 }
-h3, .h-byline {
+h3,
+.h-byline {
   font-size: 21px;
 }
-h4, .h-standfirst {
+h4,
+.h-standfirst {
   font-size: 18px;
 }
-h5, .h-related {
+h5,
+.h-related {
   font-size: 16px;
 }
-h6, .h-promo {
+h6,
+.h-promo {
   font-size: 14px;
 }
 h1, h2, h3, h4 {
@@ -75,6 +80,10 @@ h5, h6 {
 b,
 strong {
   font-weight: bold;
+}
+.text-subtle {
+  color: #999;
+  font-weight: normal;
 }
 
 /* Media

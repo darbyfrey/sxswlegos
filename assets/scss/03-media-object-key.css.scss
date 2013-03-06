@@ -1,0 +1,144 @@
+
+/* Media object
+================================================== */
+
+@import "compass/css3";
+@import "_normalize.css.scss";
+@import "_layout.css.scss";
+
+/* Default styles */
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  @include border-radius(5px);
+}
+
+/* Media object v1
+================================================== */
+
+#media-object-v1 {
+
+  /* Media object */
+
+  .media, 
+  .media-body {
+    overflow: hidden;
+  }
+  .media-object {
+    margin: 0 20px 20px 0;
+  }
+  .media-object img {
+    display: block;
+  }
+
+  /* Media secondary */
+
+  .media-secondary .media-object img {
+    width: 40px;
+  }
+
+}
+
+
+/* Media object v2
+================================================== */
+
+#media-object-v2 {
+
+  /* Media object */
+
+  .media, 
+  .media-body {
+    overflow: hidden;
+  }
+  .media-object {
+    margin: 0 20px 20px 0;
+  }
+  .media-object img {
+    display: block;
+  }
+  .media-count {
+    color: #999;
+    font-size: 11px;
+    line-height: 1;
+    padding: 3px 5px 2px 5px;
+  }
+
+  /* Media Primary */
+
+  .media-primary .media {
+    border-bottom: 1px solid #d4d4d4;
+  }
+  .media-primary .media:first-of-type {
+    border-top: 1px solid #d4d4d4;
+  }
+  .media-primary .media:last-of-type {
+    border-bottom: 0;
+  }
+
+  /* Media secondary */
+
+  .media-secondary .media-object img {
+    width: 40px;
+  }
+
+}
+
+
+/* Media object v3
+================================================== */
+
+#media-object-v3 {
+
+  /* Media */
+
+  .media, 
+  .media-body {
+    overflow: hidden;
+  }
+  .media-count {
+    color: #999;
+    font-size: 11px;
+    line-height: 1;
+    padding: 3px 5px 2px 5px;
+  }
+  .media-primary .media-object,
+  .media-secondary .media-object-alt {
+    float: right;
+    margin: 0 0 20px 20px;
+  }
+  .media-primary .media-object-alt,
+  .media-secondary .media-object {
+    float: left;
+    margin: 0 20px 20px 0;
+  }
+
+  .media-object img,
+  .media-object-alt img {
+    display: block;
+  }
+
+  /* Media Primary */
+
+  .media-primary .media {
+    border-bottom: 1px solid #d4d4d4;
+  }
+  .media-primary .media:first-of-type {
+    border-top: 1px solid #d4d4d4;
+  }
+  .media-primary .media:last-of-type {
+    border-bottom: 0;
+  }
+
+  /* Media secondary */
+
+  .media-secondary .media-object img,
+  .media-secondary .media-object-alt img {
+    width: 40px;
+  }
+
+}
