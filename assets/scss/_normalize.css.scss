@@ -47,6 +47,9 @@ a:hover {
 h1, h2, h3, h4, h5, h6, p {
   margin: 0 0 20px 0;
 }
+
+/* Sizes */
+
 h1,
 .h-headline {
   font-size: 36px;
@@ -71,12 +74,18 @@ h6,
 .h-promo {
   font-size: 14px;
 }
+
+/* Colors */
+
 h1, h2, h3, h4 {
   color: #29abe2;
 }
 h5, h6 {
   color: #333;
 }
+
+/* Offsets */
+
 b,
 strong {
   font-weight: bold;

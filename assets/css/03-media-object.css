@@ -53,59 +53,62 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0 0 20px 0;
 }
 
-/* line 51, ../scss/_normalize.css.scss */
+/* Sizes */
+/* line 54, ../scss/_normalize.css.scss */
 h1,
 .h-headline {
   font-size: 36px;
 }
 
-/* line 55, ../scss/_normalize.css.scss */
+/* line 58, ../scss/_normalize.css.scss */
 h2,
 .h-subheadline {
   font-size: 24px;
 }
 
-/* line 59, ../scss/_normalize.css.scss */
+/* line 62, ../scss/_normalize.css.scss */
 h3,
 .h-byline {
   font-size: 21px;
 }
 
-/* line 63, ../scss/_normalize.css.scss */
+/* line 66, ../scss/_normalize.css.scss */
 h4,
 .h-standfirst {
   font-size: 18px;
 }
 
-/* line 67, ../scss/_normalize.css.scss */
+/* line 70, ../scss/_normalize.css.scss */
 h5,
 .h-related {
   font-size: 16px;
 }
 
-/* line 71, ../scss/_normalize.css.scss */
+/* line 74, ../scss/_normalize.css.scss */
 h6,
 .h-promo {
   font-size: 14px;
 }
 
-/* line 74, ../scss/_normalize.css.scss */
+/* Colors */
+/* line 80, ../scss/_normalize.css.scss */
 h1, h2, h3, h4 {
   color: #29abe2;
 }
 
-/* line 77, ../scss/_normalize.css.scss */
+/* line 83, ../scss/_normalize.css.scss */
 h5, h6 {
   color: #333;
 }
 
-/* line 81, ../scss/_normalize.css.scss */
+/* Offsets */
+/* line 90, ../scss/_normalize.css.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 84, ../scss/_normalize.css.scss */
+/* line 93, ../scss/_normalize.css.scss */
 .text-subtle {
   color: #999;
   font-weight: normal;
@@ -113,12 +116,12 @@ strong {
 
 /* Media
 ================================================== */
-/* line 92, ../scss/_normalize.css.scss */
+/* line 101, ../scss/_normalize.css.scss */
 img {
   border: 0;
 }
 
-/* line 95, ../scss/_normalize.css.scss */
+/* line 104, ../scss/_normalize.css.scss */
 figure {
   margin: 0;
 }
