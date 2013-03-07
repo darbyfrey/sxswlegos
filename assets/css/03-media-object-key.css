@@ -253,112 +253,100 @@ img {
 }
 /* line 32, ../scss/03-media-object-key.css.scss */
 #media-object-v1 .media-object {
+  float: left;
   margin: 0 20px 20px 0;
 }
-/* line 35, ../scss/03-media-object-key.css.scss */
+/* line 36, ../scss/03-media-object-key.css.scss */
 #media-object-v1 .media-object img {
   display: block;
 }
-/* line 41, ../scss/03-media-object-key.css.scss */
+/* line 42, ../scss/03-media-object-key.css.scss */
 #media-object-v1 .media-secondary .media-object img {
   width: 40px;
 }
 
 /* Media object v2
 ================================================== */
-/* line 51, ../scss/03-media-object-key.css.scss */
+/* line 52, ../scss/03-media-object-key.css.scss */
 #media-object-v2 {
   /* Media object */
   /* Media Primary */
   /* Media secondary */
 }
-/* line 56, ../scss/03-media-object-key.css.scss */
+/* line 57, ../scss/03-media-object-key.css.scss */
 #media-object-v2 .media,
 #media-object-v2 .media-body {
   overflow: hidden;
 }
-/* line 59, ../scss/03-media-object-key.css.scss */
+/* line 60, ../scss/03-media-object-key.css.scss */
 #media-object-v2 .media-object {
+  float: left;
   margin: 0 20px 20px 0;
 }
-/* line 62, ../scss/03-media-object-key.css.scss */
+/* line 64, ../scss/03-media-object-key.css.scss */
 #media-object-v2 .media-object img {
   display: block;
 }
-/* line 65, ../scss/03-media-object-key.css.scss */
+/* line 67, ../scss/03-media-object-key.css.scss */
 #media-object-v2 .media-count {
   color: #999;
+  float: right;
   font-size: 11px;
   line-height: 1;
   padding: 3px 5px 2px 5px;
 }
-/* line 74, ../scss/03-media-object-key.css.scss */
-#media-object-v2 .media-primary .media {
-  border-bottom: 1px solid #d4d4d4;
-}
 /* line 77, ../scss/03-media-object-key.css.scss */
-#media-object-v2 .media-primary .media:first-of-type {
+#media-object-v2 .media-primary .media {
   border-top: 1px solid #d4d4d4;
 }
-/* line 80, ../scss/03-media-object-key.css.scss */
-#media-object-v2 .media-primary .media:last-of-type {
-  border-bottom: 0;
-}
-/* line 86, ../scss/03-media-object-key.css.scss */
+/* line 83, ../scss/03-media-object-key.css.scss */
 #media-object-v2 .media-secondary .media-object img {
   width: 40px;
 }
 
 /* Media object v3
 ================================================== */
-/* line 96, ../scss/03-media-object-key.css.scss */
+/* line 93, ../scss/03-media-object-key.css.scss */
 #media-object-v3 {
   /* Media */
   /* Media Primary */
   /* Media secondary */
 }
-/* line 101, ../scss/03-media-object-key.css.scss */
+/* line 98, ../scss/03-media-object-key.css.scss */
 #media-object-v3 .media,
 #media-object-v3 .media-body {
   overflow: hidden;
 }
-/* line 104, ../scss/03-media-object-key.css.scss */
+/* line 101, ../scss/03-media-object-key.css.scss */
 #media-object-v3 .media-count {
   color: #999;
   font-size: 11px;
+  float: right;
   line-height: 1;
   padding: 3px 5px 2px 5px;
 }
-/* line 111, ../scss/03-media-object-key.css.scss */
+/* line 109, ../scss/03-media-object-key.css.scss */
 #media-object-v3 .media-primary .media-object,
 #media-object-v3 .media-secondary .media-object-alt {
   float: right;
   margin: 0 0 20px 20px;
 }
-/* line 116, ../scss/03-media-object-key.css.scss */
+/* line 114, ../scss/03-media-object-key.css.scss */
 #media-object-v3 .media-primary .media-object-alt,
 #media-object-v3 .media-secondary .media-object {
   float: left;
   margin: 0 20px 20px 0;
 }
-/* line 122, ../scss/03-media-object-key.css.scss */
+/* line 119, ../scss/03-media-object-key.css.scss */
 #media-object-v3 .media-object img,
 #media-object-v3 .media-object-alt img {
   display: block;
 }
-/* line 128, ../scss/03-media-object-key.css.scss */
+/* line 125, ../scss/03-media-object-key.css.scss */
 #media-object-v3 .media-primary .media {
-  border-bottom: 1px solid #d4d4d4;
-}
-/* line 131, ../scss/03-media-object-key.css.scss */
-#media-object-v3 .media-primary .media:first-of-type {
   border-top: 1px solid #d4d4d4;
 }
-/* line 134, ../scss/03-media-object-key.css.scss */
-#media-object-v3 .media-primary .media:last-of-type {
-  border-bottom: 0;
-}
-/* line 141, ../scss/03-media-object-key.css.scss */
+/* line 132, ../scss/03-media-object-key.css.scss */
 #media-object-v3 .media-secondary .media-object img,
 #media-object-v3 .media-secondary .media-object-alt img {
   width: 40px;

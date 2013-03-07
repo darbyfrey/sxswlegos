@@ -30,6 +30,7 @@ img {
     overflow: hidden;
   }
   .media-object {
+    float: left;
     margin: 0 20px 20px 0;
   }
   .media-object img {
@@ -57,6 +58,7 @@ img {
     overflow: hidden;
   }
   .media-object {
+    float: left;
     margin: 0 20px 20px 0;
   }
   .media-object img {
@@ -64,6 +66,7 @@ img {
   }
   .media-count {
     color: #999;
+    float: right;
     font-size: 11px;
     line-height: 1;
     padding: 3px 5px 2px 5px;
@@ -72,13 +75,7 @@ img {
   /* Media Primary */
 
   .media-primary .media {
-    border-bottom: 1px solid #d4d4d4;
-  }
-  .media-primary .media:first-of-type {
     border-top: 1px solid #d4d4d4;
-  }
-  .media-primary .media:last-of-type {
-    border-bottom: 0;
   }
 
   /* Media secondary */
@@ -104,6 +101,7 @@ img {
   .media-count {
     color: #999;
     font-size: 11px;
+    float: right;
     line-height: 1;
     padding: 3px 5px 2px 5px;
   }
@@ -117,7 +115,6 @@ img {
     float: left;
     margin: 0 20px 20px 0;
   }
-
   .media-object img,
   .media-object-alt img {
     display: block;
@@ -126,13 +123,7 @@ img {
   /* Media Primary */
 
   .media-primary .media {
-    border-bottom: 1px solid #d4d4d4;
-  }
-  .media-primary .media:first-of-type {
     border-top: 1px solid #d4d4d4;
-  }
-  .media-primary .media:last-of-type {
-    border-bottom: 0;
   }
 
   /* Media secondary */
