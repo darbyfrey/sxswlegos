@@ -2,8 +2,7 @@
 /* Buttons
 ================================================== */
 
-@import "compass/css3";
-@import "_normalize.css.scss";
-@import "_layout.css.scss";
+@import url("_normalize.css");
+@import url("_layout.css");
 
 /* Default styles */
