@@ -2,7 +2,7 @@
 
 ## Exercise #1 - Buttons
 
-Starting with `01-buttons.html` and `css/01-buttons.css` create the following:
+Starting with [01-buttons.html](https://github.com/darbyfrey/sxswlegos/blob/master/01-buttons.html) and [css/01-buttons.css](https://github.com/darbyfrey/sxswlegos/blob/master/css/01-buttons.css) create the following:
 * Create a button style with 5 different colors
 * Create 4 different buttons sizes
 * Create button styles that can be applied to span, a, div, input and button elements
@@ -11,7 +11,7 @@ Starting with `01-buttons.html` and `css/01-buttons.css` create the following:
 
 ## Exercise #2 - Naviation
 
-Starting with `02-navigation.html` and `css/02-navigation.css` create the following:
+Starting with [02-navigation.html](https://github.com/darbyfrey/sxswlegos/blob/master/02-navigation.html) and [css/02-navigation.css](https://github.com/darbyfrey/sxswlegos/blob/master/css/02-navigation.css) create the following:
 * Create a tab style navigation for an unordered list
 * Create a pill style navigation for an unordered list
 * Create a vertical tab & pill style navigation for an unordered list
@@ -20,7 +20,7 @@ Starting with `02-navigation.html` and `css/02-navigation.css` create the follow
 
 ## Exercise #3 - Media Object
 
-Starting with `03-media-object.html` and `css/03-media-object.css` create the following:
+Starting with [03-media-object.html](https://github.com/darbyfrey/sxswlegos/blob/master/03-media-object.html) and [css/03-media-object.css](https://github.com/darbyfrey/sxswlegos/blob/master/css/03-media-object.css) create the following:
 * Place a feed within primary & secondary columns
 * Float images to the left & content to right
 * Visually offset the primary feed
