@@ -1,5 +1,7 @@
 # SXSWLegos
 
+[Presentation Slides](https://speakerdeck.com/shayhowe/front-end-legos-reusable-html-and-css-workshop)
+
 ## Exercise #1 - Buttons
 
 Starting with [01-buttons.html](https://github.com/darbyfrey/sxswlegos/blob/master/01-buttons.html) and [css/01-buttons.css](https://github.com/darbyfrey/sxswlegos/blob/master/css/01-buttons.css) create the following:
